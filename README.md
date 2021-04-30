@@ -1,9 +1,9 @@
 # Keg Tracker
 <p align="center"> Authored by Brian Sturgis</p>
-<p align="center">Project started on April 23rd, 2021</p>
+<p align="center">Project started on April 30th, 2021</p>
 
 ## Description
-This is an application for a Bar to track their keg inventory.
+This is an application for a Bar to track their keg inventory. This is version of the application will use REDUX to manage its state.
 
 ## user stories
 As a user can see a list/menu of all available kegs. They can see its name, brand, price and alcoholContent.
@@ -37,7 +37,7 @@ A user can click a button next to a keg whenever I sell a pint of it. This will 
 - Babel
 - ESLint
 - node.js v15.8.0
-- Bootstrap v5.0.0
+- REDUX
 - Adobe Photo Shop
 - Adobe XD
 
