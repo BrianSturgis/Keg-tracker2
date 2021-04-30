@@ -10,7 +10,7 @@ As a user can see a list/menu of all available kegs. They can see its name, bran
 A user can submit a form to add a new keg to a list.
 A user can click on a keg to see its detail page.
 A user can see how many pints are left in a keg. Hint: A full keg has roughly 124 pints.
-A user can click a button next to a keg whenever I sell a pint of it. This will decrease the number of pints left by 1. 
+A user can click a button next to a keg whenever I sell a pint of it. This will decrease the number of pints left by 1.
 
 ### Known Bugs
 - keg refill button does not top off keg it adds 124 pints and is not the expectation of the function.
@@ -39,7 +39,6 @@ A user can click a button next to a keg whenever I sell a pint of it. This will 
 - node.js v15.8.0
 - REDUX
 - Adobe Photo Shop
-- Adobe XD
 
 
 ### `npm install`
