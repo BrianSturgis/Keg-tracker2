@@ -58,6 +58,7 @@ handleEditingKegInList = (kegToEdit) => {
     selectedKeg: kegToEdit
   });
 }
+
 handleBuyClick = () => {
   const selectedKeg = this.state.selectedKeg;
   const pintToBuy = Object.assign({}, selectedKeg, {pintsLeft: selectedKeg.pintsLeft - 1});
@@ -89,7 +90,6 @@ handleDeletingKeg = (id) => {
     selectedKeg: null
   });
 }
-
 
 render(){
   let currentlyVisibleState = null;

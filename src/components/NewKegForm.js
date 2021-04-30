@@ -25,7 +25,9 @@ function NewKegForm(props){
     </React.Fragment>
   );
 }
+
 NewKegForm.propTypes = {
   onNewKegCreation: PropTypes.func
 };
+
 export default NewKegForm;

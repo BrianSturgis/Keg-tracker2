@@ -1,7 +1,6 @@
 import React from "react";
 import KegControl from "./KegControl";
 
-
 function App(){
   return (
     <React.Fragment>
