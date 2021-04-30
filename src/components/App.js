@@ -7,7 +7,6 @@ function App(){
       <div className="container">
         <div className="content">keg details </div>
         <div className="footer">
-          <h3>buttons</h3>
           <KegControl />
         </div>
       </div>
