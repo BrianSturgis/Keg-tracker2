@@ -1,7 +1,7 @@
 import * as c from './ActionTypes';
 
 export const addKeg = (keg) => {
-  const { name, brand, priceByKeg, alcoholContent, pintsLeft, id } = keg;
+  const { names, brand, price, alcoholContent, pintsLeft, id } = keg;
   return {
     type: c.ADD_KEG,
     names,
