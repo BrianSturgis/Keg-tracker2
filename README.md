@@ -13,6 +13,13 @@ A user can see how many pints are left in a keg. Hint: A full keg has roughly 12
 A user can click a button next to a keg whenever I sell a pint of it. This will decrease the number of pints left by 1.
 
 ### Known Bugs
+
+- .eslintrc throws the below error when run and must be noted out in order for the application to run.  I am currently of the belief that i am missing a setting as there is a rule set that disallows lexical declarations.
+
+```
+src\reducers\keg-list-reducer.js
+  Line 18:3:  Unexpected lexical declaration in case block  no-case-declarations
+```
 - keg refill button does not top off keg it adds 124 pints and is not the expectation of the function.
 
 - all fields requiring integers must receive them or the keg must be re updated completely for the math to properly reduce the keg amount by one pint at a time.
