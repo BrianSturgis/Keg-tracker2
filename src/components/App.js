@@ -5,7 +5,10 @@ function App(){
   return (
     <React.Fragment>
       <div className="container">
-        <div className="content">keg tracker 2 </div>
+        <div className="header">
+        </div>
+        <div className="content">
+        </div>
         <div className="footer">
           <KegControl />
         </div>
